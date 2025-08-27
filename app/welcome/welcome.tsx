@@ -10,12 +10,12 @@ export function Welcome() {
             <img
               src={logoLight}
               alt="React Router"
-              className="block w-full dark:hidden"
+              className="block w-full "
             />
             <img
               src={logoDark}
               alt="React Router"
-              className="hidden w-full dark:block"
+              className="hidden w-full dark:hidden"
             />
           </div>
         </header>
