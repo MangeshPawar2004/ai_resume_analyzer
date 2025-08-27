@@ -25,7 +25,7 @@ export default function Home() {
     },[auth.isAuthenticated])
 
 
-  return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
+  return <main className="bg-[url('/images/background.jpg')] bg-cover">
 
       <Navbar/>
 
