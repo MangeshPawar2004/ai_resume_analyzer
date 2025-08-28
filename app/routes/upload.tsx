@@ -60,7 +60,7 @@ const Upload = () => {
         await kv.set(`resume:${uuid}`, JSON.stringify(data));
         setStatusText('Analysis complete, redirecting...');
         console.log(data);
-        navigate(`/resume/${uuid}`);
+        // navigate(`/resume/${uuid}`);
     }
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -73,9 +73,11 @@ const Upload = () => {
         const jobTitle = formData.get('job-title') as string;
         const jobDescription = formData.get('job-description') as string;
 
+
+
         if(!file) return;
 
-        handleAnalyze({ companyName, jobTitle, jobDescription, file });
+         handleAnalyze({ companyName, jobTitle, jobDescription, file });
     }
 
     return (
