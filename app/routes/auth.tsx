@@ -5,7 +5,7 @@ import {useLocation, useNavigate} from "react-router";
 
 
 export const meta=()=>([
-    {title:'Resumetric | Auth'},
+    {title:'RESUMETRIC | Auth'},
     {name:'description',content:'Log into your Account'}
 ])
 
